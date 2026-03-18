@@ -1,0 +1,7 @@
+[logging]
+log_dir = "logs"
+log_level = "INFO"
+max_bytes = 10485760          # 10 MB per log file
+backup_count = 30             # keep 30 days of rotated files
+log_format = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
+date_format = "%Y-%m-%d %H:%M:%S"
